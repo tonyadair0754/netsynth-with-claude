@@ -6,7 +6,7 @@
 
 ---
 
-## The 60-second version
+## Overview
 
 **What is it?** A small Python toolkit that (1) measures a network (how many friends people have, how often your friends
 know each other, how people split into communities, who connects to whom by income level, ...), (2) builds a brand-new
@@ -35,7 +35,7 @@ which features it bakes in and which it misses. We have **not** yet compared any
                               analyze / features              generate                  compare_networks.py
 ```
 
-Some plain-English definitions you'll see everywhere:
+Some definitions you'll see everywhere:
 
 | Term | Means |
 |---|---|
@@ -58,7 +58,7 @@ Some plain-English definitions you'll see everywhere:
    until the table of "who befriends whom" matches the Social Capital Atlas data, **without touching the wiring**. We also
    built a separate friendship layer whose income mixing matches the Atlas by construction.
 
-More detail (and the math, kept gentle) is in [docs/METHODS.md](docs/METHODS.md).
+More detail (and the math, kept simple) is in [docs/METHODS.md](docs/METHODS.md).
 
 ---
 
@@ -210,7 +210,7 @@ In rough priority order:
 
 ## Data, credits, license
 
-* **Social Capital Atlas:** Chetty et al.; <https://data.humdata.org/dataset/social-capital-atlas>.
+* **Social Capital Atlas:** Chetty et al.; <https://data.humdata.org/dataset/social-capital-atlas>. See also <https://opportunityinsights.org/paper/social-capital-i-measurement-and-associations-with-economic-mobility/>.
 * **geo-synthetic-pop-usa:** Jiang, Yin, Wang & Crooks (2024), *Scientific Data* 11:1204,
   <https://doi.org/10.1038/s41597-024-03970-1>; code <https://github.com/njiang8/geo-synthetic-pop-usa> (CC0); data <https://osf.io/fpnc2/>.
   `data/utah_reference/` is a small summary derived from their Utah release (synthetic people, not real ones).
