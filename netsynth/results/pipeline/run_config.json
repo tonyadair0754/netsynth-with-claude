@@ -1,0 +1,17 @@
+{
+ "N": 500,
+ "K": 10,
+ "REPS": 3,
+ "SEED": 2026,
+ "MATCH_STEPS": 400000,
+ "MATCH_TOL": 0.001,
+ "LABEL_STEPS": 100000,
+ "NONID_SEEDS": 8,
+ "refs": [
+  "WS(k=8,p=0.1)",
+  "BA(m=4)",
+  "SBM(4x125,0.15/0.01)"
+ ],
+ "networkx": "3.6.1",
+ "numpy": "2.4.4"
+}

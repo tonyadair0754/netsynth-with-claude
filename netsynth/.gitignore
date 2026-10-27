@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+# Raw inputs: large and/or governed by their own licenses -- download them yourself (see data/README.md)
+data/atlas/*
+!data/atlas/README.md
+data/raw/
+*.gpkg
+*.shp
+*.zip
+# Big/regenerable intermediate files
+results/release_features_*/*.npy
+# Output folders you create when running on your own data
+compare_results/
+results/compare_demo/

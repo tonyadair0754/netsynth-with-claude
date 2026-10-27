@@ -1,0 +1,21 @@
+{
+ "N_TWIN": 300000,
+ "SEEDS": [
+  1,
+  2,
+  3
+ ],
+ "N_SENS": 200000,
+ "SENS_SEEDS": [
+  1,
+  2
+ ],
+ "N_SES": 60000,
+ "SES_SEEDS": [
+  1,
+  2,
+  3
+ ],
+ "FIT_STEPS": 80000,
+ "FRIEND_MEAN_DEGREE": 6
+}

@@ -1,0 +1,3 @@
+# Only needed for release_tools/ (reading the .gpkg files of the geo-synthetic-pop-usa release).
+#   pip install -r requirements.txt -r requirements-release.txt
+pyogrio>=0.7

@@ -1,0 +1,10 @@
+# Keep line endings consistent across Windows / macOS / Linux so diffs stay clean.
+* text=auto
+*.py   text eol=lf
+*.md   text eol=lf
+*.csv  text eol=lf
+*.json text eol=lf
+*.txt  text eol=lf
+*.yml  text eol=lf
+*.png  binary
+*.gz   binary

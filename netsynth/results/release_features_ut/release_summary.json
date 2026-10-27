@@ -1,0 +1,17 @@
+{
+ "people": 3258959,
+ "people_by_daytime_kind": {
+  "work": 1429819,
+  "none": 887602,
+  "school": 702848,
+  "daycare": 238690
+ },
+ "max_age": 89.0,
+ "n_age_ge_90": 0,
+ "employed_share_of_adults": 0.616987159432835,
+ "workplaces_listed": 10515837,
+ "workers": 1429819,
+ "listed_per_worker": 7.354663072738577,
+ "workplaces_used": 1097864,
+ "share_listed_used": 0.10440100963908056
+}
